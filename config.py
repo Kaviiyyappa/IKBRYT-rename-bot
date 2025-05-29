@@ -17,11 +17,11 @@ class Config(object):
     # other configs
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "https://i.ibb.co/kgSv5sKP/3c10c3a8fc8d.jpg")
-    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '1993048420 5743248220 1214348787').split()]
+    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6757014146').split()]
     FORCE_SUB_CHANNELS = os.environ.get('FORCE_SUB_CHANNELS', '').split(',')
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002667013291"))
-    BOT_OWNER = int(os.environ.get("BOT_OWNER", "7518139247"))
-    DUMP_CHANNEL = int(os.environ.get("DUMP_CHANNEL", "-1002667013291"))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002586186825"))
+    BOT_OWNER = int(os.environ.get("BOT_OWNER", "67570141467"))
+    DUMP_CHANNEL = int(os.environ.get("DUMP_CHANNEL", "-1002586186825"))
     
     # wes response configuration     
     WEBHOOK = bool(os.environ.get("WEBHOOK", "True"))
